@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class Calculations {
+            public static void main(String[] args) {
+                Scanner scanner = new Scanner(System.in);
+
+                System.out.print("Enter the first number: ");
+                double num1 = scanner.nextDouble();
+
+                System.out.print("Enter the second number: ");
+                double num2 = scanner.nextDouble();
+
+                double addition = num1 + num2;
+                double subtraction = num1 - num2;
+                double multiplication = num1 * num2;
+                double division = num1 / num2;
+                double modulus = num1 % num2;
+
+                System.out.println("Addition result: " + addition);
+                System.out.println("Subtraction result: " + subtraction);
+                System.out.println("Multiplication result: " + multiplication);
+                System.out.println("Division result: " + division);
+                System.out.println("Modulus result: " + modulus);
+
+                scanner.close();
+            }
+        }
+        
